@@ -1,0 +1,18 @@
+// Iniciar o servidor
+cd server/
+npm start
+
+// Comando para instalar um novo módulo
+npm install nome_do_modulo@versao
+
+// Comandos para compilar o projeto em dev ou prod
+cd client/
+npm run build-dev
+npm run build-prod
+
+// Instalação do webpack dev server
+npm install webpack-dev-server@2.5.1 --save-dev
+
+// Executar o servidor do webpack para o client
+cd client/
+npm start
